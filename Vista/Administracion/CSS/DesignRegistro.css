@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+ 
+@font-face{
+	font-family: simplifica;
+	src:url("../Fuentes/SIMPLIFICA Typeface.ttf");
+}
+@font-face{
+	font-family: typo_rounded;
+	src:url("../Fuentes/Typo_Round_Regular_Demo.otf");
+}
+#contendorLogin{
+	width: 30%;
+	height: 600px;
+	border: 1px solid #848484;
+	margin:auto;
+	margin-top: 25px;
+}
+#contendorLogin h1{
+	font-family: simplifica;
+	text-align: center;
+	margin-top: 10px;
+	color:#FF6E00;
+}
+
+#contenedorForm{
+	width: 80%;
+	height: 290px;
+	 
+	margin:auto;
+	margin-top: 10%;
+	
+}
+#iconoLogin{
+	width: 16%;
+	height: 20%;
+	 
+	margin-left: 40%;
+	margin-top: -35px;
+}
+
+form{
+	width: 100%;
+	height: 160%;
+	/*border: 1px solid red;*/
+}
+form table{
+width: 100%;
+height: 75%;
+margin: auto;
+border: none;
+/*border-bottom: 1px solid #464646;*/
+}
+form table h2{
+	font-size: 15px;
+	font-family: typo_rounded;
+	color: #D86400;
+}
+
+.campos{
+width: 100%;
+height: 65%;
+border:0;
+border-bottom: 1px solid #524F4F;
+background-color:#FCFCFC;
+}
+.textarea{
+	width: 60%;
+	height: 10%;
+	margin-left: -48%;
+	
+}
+.entrar{
+width: 49%;
+height: 9%;
+/*border: 1px solid orange;*/
+float: left;
+background-color: #7E2ACF;
+margin-top: 20%;
+cursor: pointer;
+}
+.entrar h2{
+	color: white;
+	font-family: typo_rounded;
+	text-align: center;
+	padding-top: 10px;
+}
+.entrar :hover{
+background-color: #6E23AF;
+}
+.registrarse{
+width: 50%;
+height: 7%;
+margin-left: 49%;
+margin-top:3%;
+margin-top:3.7%;
+cursor: pointer;
+font-size: 16px;
+border: 1px solid red;
+font-weight: bold;
+color: white;
+background-color: #F46C1C;
+font-family: typo_rounded;
+text-align: center;
+padding-top: 8px;
+	 
+}
+ 
+.registrarse:hover{
+	background-color: #FF6E00;
+}
+ 
+
+

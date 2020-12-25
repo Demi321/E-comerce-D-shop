@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin: 0px;
+padding: 0px;
+	
+}
+
+@font-face{
+	font-family: typo_rounded;
+	src:url("../Fuentes/Typo_Round_Regular_Demo.otf");
+	
+}
+body{
+	background-color: white;
+} 
+#contenedor{
+	width: 1366;
+	height: 800px;
+	border: 1px solid #00DBFF;
+	 
+}
+#banner{
+	width: 100%;
+	height: 80px;
+	background-color: #212121;
+}
+#logoMarca{
+	 
+	width: 5%;
+	height: 70px;
+	margin-left: 5%;
+	margin-top: 5px;
+	float: left;
+}
+.titulo{
+	width: 30%;
+	height: 50px;
+	color:#FF8E00;
+	margin-left: 15%;
+	margin:auto;
+	padding-top: 2%;
+	font-family: typo_rounded;
+	
+}
+
+.modoOscuro{
+	width: 5%;
+	height: 70px;
+	margin-left: 80%;
+	margin-top: -5%;
+	background-image:url("Imagenes/luna.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+ 
+#opciones{
+	width: 60%;
+	height: 200px;
+	margin: auto;
+	margin-top: 10%;
+	
+}
+.contenedorOpciones{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin-left: 6%;
+	cursor: pointer;
+	 
+}
+.contenedorOpciones:hover{
+ border: 3px solid #D50063;
+}
+
+.tituloOpcion{
+width: 100%;
+height: 37px;	
+font-size: 11px;
+font-family: typo_rounded;
+text-align: center;
+color:#3D3D3D;
+	
+}
+.tituloOpcion:hover{
+	color:#5F00A7;
+}
+/*Modo oscuro*/
+
+.tituloMainNon{
+	color: aqua;
+}
+.contenedorNeon{
+	width: 25%;
+	height: 200px;
+	float: left;
+	margin-left: 6%;
+	cursor: pointer;
+	 
+}
+.contenedorNeon:hover{
+ border: 3px solid #00DBFF;
+}
+
+.titulosNeon{
+font-size: 11px;
+font-family: typo_rounded;
+text-align: center;
+color:#00E8FC;
+	
+}
+.titulosNeon:hover{
+	color: #00FF34;
+}
+.cuerpo{
+	background-color: #001B37;
+}
+.modoOscuroSol{
+	width: 5%;
+	height: 70px;
+	margin-left: 80%;
+	margin-top: -5%;
+	background-image:url("Imagenes/sol.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+/**/
+
+
+
